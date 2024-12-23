@@ -22,8 +22,51 @@ h1 {
 
 h2 {
     color: #666;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
 
 section {
     margin: 20px 0;
+}
+
+.projects ul,
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li,
+.skills li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #333;
 }
